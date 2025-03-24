@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<configSections>
+	 <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+   <section name="SPEX.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+  </sectionGroup>
+  <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+   <section name="SPEX.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+  </sectionGroup>
+ </configSections>
+	<connectionStrings>
+		<add name="con"
+    providerName="Microsoft.Data.SqlClient"
+    connectionString="Data Source=####,###;Initial Catalog=SPEX;Persist Security Info=True;Trust Server Certificate=True;User ID=spex_access;Password=##;MultipleActiveResultSets=True"/>
+	</connectionStrings>
+ <userSettings>
+  <SPEX.Properties.Settings>
+   <setting name="SetupKey" serializeAs="String">
+    <value>Passw0rd1234</value>
+   </setting>
+   <setting name="SetupResetKey" serializeAs="String">
+    <value>Passw0rd1234</value>
+   </setting>
+   <setting name="ChangeLogs" serializeAs="String">
+    <value>Version 2.0.0.0
+
+- - - - - Special Note  - - - - - -
+- - - - - Nothing follows - - - - -</value>
+   </setting>
+   <setting name="ChangeLogIsSeen" serializeAs="String">
+    <value>False</value>
+   </setting>
+   <setting name="RefreshInterval" serializeAs="String">
+    <value>1</value>
+   </setting>
+   <setting name="MonthChecker" serializeAs="String">
+    <value>1</value>
+   </setting>
+   <setting name="ClearOldFiles" serializeAs="String">
+    <value>True</value>
+   </setting>
+  </SPEX.Properties.Settings>
+ </userSettings>
+ <applicationSettings>
+  <SPEX.Properties.Settings>
+   <setting name="Version" serializeAs="String">
+    <value>v2.0.0.0</value>
+   </setting>
+  </SPEX.Properties.Settings>
+ </applicationSettings>
+</configuration>
